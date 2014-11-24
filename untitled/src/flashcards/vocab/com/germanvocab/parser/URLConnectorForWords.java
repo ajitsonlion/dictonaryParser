@@ -12,7 +12,7 @@ import java.util.Map;
 /**
  * Created by ajit on 19.11.14.
  */
-public class URLConnection {
+public class URLConnectorForWords {
 
 
     public static final  String DOMAIN_NAME ="http://www.memrise.com/course/920/5000-german-words-top-87/";

@@ -11,8 +11,7 @@ import java.util.ArrayList;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-
-import flashcards.vocab.com.germanvocab.parser.URLConnection;
+import flashcards.vocab.com.germanvocab.parser.URLConnectorForWords;
 import flashcards.vocab.com.germanvocab.parser.FlashCard;
 
 
@@ -26,7 +25,7 @@ public class MainActivity {
     public static void main( final String[] args ){
 
 
-        URLConnection connector = new URLConnection();
+        URLConnectorForWords connector = new URLConnectorForWords();
         wordsDatabase = connector.getAllWordsListByLetter();
 
         Gson gson = new Gson();
